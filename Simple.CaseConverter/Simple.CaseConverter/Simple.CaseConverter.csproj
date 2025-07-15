@@ -5,4 +5,21 @@
         <Nullable>enable</Nullable>
     </PropertyGroup>
 
+    <PropertyGroup>
+        <PackageId>Simple.CaseConverter</PackageId>
+        <Authors>Henrik Larsson</Authors>
+        <PackageProjectUrl>https://github.com/henkla/Simple.CaseConverter</PackageProjectUrl>
+        <RepositoryUrl>https://github.com/henkla/Simple.CaseConverter</RepositoryUrl>
+        <RepositoryType>git</RepositoryType>
+        <PackageDescription>Simple.CaseConverter is a lightweight and efficient .NET library for converting strings between common casing styles such as camelCase, PascalCase, snake_case, kebab-case, and more.
+            It focuses on speed, correctness, and simplicity with zero dependencies beyond .NET.</PackageDescription>
+        <PackageTags>dotnet;library;string;converter</PackageTags>
+        <PackageLicenseExpression>MIT</PackageLicenseExpression>
+        <PackageReadmeFile>README.md</PackageReadmeFile>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <None Include="../../README.md" Pack="true" PackagePath="" />
+    </ItemGroup>
+    
 </Project>
